@@ -19,7 +19,7 @@ h1 {
 }
 
 #heading {
-  background-color: #A683E3;
+  background-color: #FF8C19;
   text-align: center;
 }
 
@@ -36,7 +36,7 @@ h1 {
 
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: #A683E3;
+  text-decoration-color: #FF8C19;
 }
 
 input[type="checkbox"] {
@@ -61,7 +61,7 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #A683E3;
+  background-color: #FF8C19;
   color: #fff;
   font-size: 30px;
   padding-bottom: 6px;
@@ -90,7 +90,6 @@ input[type="text"]:focus {
 }
 
 footer {
-  color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
