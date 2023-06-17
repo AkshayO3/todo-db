@@ -3,12 +3,12 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash")
 const app = express();
-
+require("dotenv").config();
 
 app.set('view engine', 'ejs');
 
 
-mongoose.connect("mongodb+srv://akshay:xlzYPRC6BBSXCSPs@cluster0.xatr8oa.mongodb.net/todoDB", {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect(process.env.URI, {useNewUrlParser: true, useUnifiedTopology: true})
 
 
 const taskSchema = mongoose.Schema({ //Creating schema for the default list
